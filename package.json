@@ -1,0 +1,12 @@
+{
+  "name": "Clock_Simple",
+  "version": "1.0.0",
+  "description": "a simple clock made for fun",
+  "main": "server.js",
+  "scripts": {
+    "start": "webpack -w & nodemon --watch server -e js,html server.js",
+    "postinstall": "npm run webpack"
+  },
+  "author": "Vince Rios",
+  "license": "ISC"
+}
